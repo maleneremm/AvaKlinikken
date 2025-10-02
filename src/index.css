@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Cormorant Infant";
+  src: url("./assets/fonts/CormorantInfant-VariableFont.ttf") format("truetype");
+  font-weight: 100 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Color */
+  --bg-primary-color: linear-gradient(0deg, #e8dfd0 43.75%, #f5f0e8 100%), #fff;
+  --link-bg-color: #2c2c2c;
+
+  --font-primary-color: #2c2c2c;
+  --font-secondary-color: #ffffff;
+
+  --primary-button-color: #2c2c2c;
+  --primary-border-color: #2c2c2c;
+
+  /* Fonts */
+  --primary-font-family: "Cormorant Infant";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font-family);
+  color: var(--font-primary-color);
+}
+
+body {
+  background: var(--bg-primary-color);
+  height: 100vh;
+}
