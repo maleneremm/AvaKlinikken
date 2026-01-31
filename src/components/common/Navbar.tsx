@@ -1,6 +1,6 @@
-import Button from "./Button";
+import {Button} from "./Button";
 import { Menu } from "lucide-react";
-import MobileMenu from "./MobileMenu";
+import {MobileMenu} from "./MobileMenu";
 import { useState } from "react";
 
 export const Navbar = () => {

@@ -1,5 +1,8 @@
 import "./App.css";
 import { Navbar } from "./components/common/Navbar";
+import Section from "./components/layout/Section";
+import {Hero} from "./components/ui/Hero";
+import { Treatment } from "./components/ui/Treatment";
 
 function App() {
   return (
@@ -7,15 +10,14 @@ function App() {
       <header>
         <Navbar />
       </header>
-{/*       <main>
-        <header>
-          <h1 className="title">AvaKlinikken</h1>
-        </header>
-        <p className="info">Kommer snart</p>
-        <a className="contact-link" href="mailto:post@avaklinikken.no">
-          Kontakt oss
-        </a>
-      </main> */}
+      <main>
+        <Section>
+          <Hero />
+        </Section>
+        <Section>
+          <Treatment />
+        </Section>
+      </main>
     </>
   );
 }
