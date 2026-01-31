@@ -8,6 +8,6 @@ className: string
 
 export const Button = ({children, onClick, className} : buttonProps) => {
 return (
-          <button className={className} onClick={onClick}>{children}</button>
+          <button className={`${className} cursor-pointer`} onClick={onClick}>{children}</button>
 )
 }

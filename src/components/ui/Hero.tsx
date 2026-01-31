@@ -5,12 +5,12 @@ export const Hero = () => {
   return (
     <div>
       <img src={heroBanner} alt="Hero Banner" />
-      <div className="flex flex-col gap-4 items-center p-4">
+      <div className="flex flex-col gap-4 items-center p-4 lg:p-22 lg:gap-8">
         <header>
-          <h2 className="text-2xl">Naturlig skjønnhet,</h2>
-          <h2 className="text-2xl font-bold">profesjonell behandlig</h2>
+          <h2 className="text-2xl lg:text-4xl">Naturlig skjønnhet,</h2>
+          <h2 className="text-2xl font-bold lg:text-4xl">profesjonell behandlig</h2>
         </header>
-        <p>
+        <p className="text-center md:text-2xl lg:max-w-xl">
           AvaKlinikken tilbyr trygge og effektive behandlinger for å fremheve
           din naturlige skjønnhet.
         </p>
