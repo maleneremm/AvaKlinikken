@@ -3,7 +3,7 @@ import { Button } from "../common/Button";
 
 export const Hero = () => {
   return (
-    <div className="bg-amber-100">
+    <div>
       <img src={heroBanner} alt="Hero Banner" />
       <div className="flex flex-col gap-4 items-center p-4">
         <header>

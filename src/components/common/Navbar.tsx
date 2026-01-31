@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="relative flex flex-row items-center p-4 bg-amber-200 justify-between">
+      <nav className="relative flex flex-row items-center p-4 bg-white justify-between">
         <ul className="flex-row gap-8 place-content-center basis-1/3 hidden">
           <li>OM OSS</li>
           <li>PRISER</li>
