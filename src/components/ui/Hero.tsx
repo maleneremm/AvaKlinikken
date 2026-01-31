@@ -15,7 +15,7 @@ export const Hero = () => {
           din naturlige skjønnhet.
         </p>
         <Button
-          className="border bg-brown-500 text-white p-2 rounded-md w-40"
+          className="border border-(--primary-border-color) bg-(--primary-button-color) text-white p-2 rounded-md w-40"
           onClick={() => {}}
         >
           Bestill konsultasjon

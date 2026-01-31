@@ -14,7 +14,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main>
+      <main>  
         <Section>
           <Hero />
         </Section>
@@ -23,12 +23,12 @@ function App() {
           <h1 className="text-3xl w-screen bg-white p-4">Behandlinger</h1>
           <Treatment
             title="Rynkebehandling"
-            description="Kråketær/smilerynker, Glabella/sinnarynker, Pannerynker, Masseter/kjeve, Marionette/munnvik, Brynsløft"
+            description={["Kråketær/smilerynker", "Glabella/sinnarynker", "Pannerynker", "Masseter/kjeve", "Marionette/munnvik", "Brynsløft"]}  
             imageUrl={wrinkleTreatment}
           />
           <Treatment
-            title="Fillers"
-            description="Kjeve, Hake, Kinnbein, Nasolabiale linjer, Marionette linjer, Lepper"
+            title="Fillers (opptil 1 ml)"
+            description={["Kjeve", "Hake", "Kinnbein", "Nasolabiale linjer", "Marionette linjer", "Lepper"]}
             imageUrl={fillers}
           />
         </Section>

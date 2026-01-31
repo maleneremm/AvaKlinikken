@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @font-face {
   font-family: "Cormorant Infant";
   src: url("./assets/fonts/CormorantInfant-VariableFont.ttf") format("truetype");
@@ -10,13 +9,13 @@
 
 :root {
   /* Color */
-  --bg-primary-color: linear-gradient(0deg, #e8dfd0 43.75%, #f5f0e8 100%), #fff;
+  --bg-primary-color: #e8dfd0;;
   --link-bg-color: #2c2c2c;
 
   --font-primary-color: #2c2c2c;
   --font-secondary-color: #ffffff;
 
-  --primary-button-color: #2c2c2c;
+  --primary-button-color: #695757;
   --primary-border-color: #2c2c2c;
 
   /* Fonts */
@@ -26,10 +25,15 @@
 * {
   box-sizing: border-box;
   font-family: var(--primary-font-family);
+}
+
+p,h1,h2,h3,h4,h5,h6,li {
   color: var(--font-primary-color);
 }
+
 
 body {
   background: var(--bg-primary-color);
   height: 100vh;
 }
+

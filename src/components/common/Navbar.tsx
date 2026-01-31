@@ -1,6 +1,6 @@
-import {Button} from "./Button";
+import { Button } from "./Button";
 import { Menu } from "lucide-react";
-import {MobileMenu} from "./MobileMenu";
+import { MobileMenu } from "./MobileMenu";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
   const bookAppointment = () => {};
 
   const buttonStyle =
-    "border bg-brown-500 text-white p-2 rounded-md";
+    "border border-(--primary-border-color) text-(--primary-font-color) px-3 py-1 rounded-md";
 
   return (
     <>
@@ -23,7 +23,7 @@ export const Navbar = () => {
           <li>BEHANDLINGER</li>
         </ul>
         <Button className={buttonStyle} onClick={bookAppointment}>
-          BOOK TIME
+          Book time
         </Button>
         <div className="relative">
           <Menu onClick={() => setIsOpen(!isOpen)} />
