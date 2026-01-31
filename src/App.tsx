@@ -7,7 +7,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main>
+{/*       <main>
         <header>
           <h1 className="title">AvaKlinikken</h1>
         </header>
@@ -15,7 +15,7 @@ function App() {
         <a className="contact-link" href="mailto:post@avaklinikken.no">
           Kontakt oss
         </a>
-      </main>
+      </main> */}
     </>
   );
 }
