@@ -13,11 +13,11 @@ export const PricesPage = () => {
             <h3 className="text-xl">Ansikt</h3>
             <ul className="flex flex-col items-start gap-2">
               <li className={listStyle}>
-                <span>Første ml:</span>
+                <span>Første ml</span>
                 <span> 2500 kr</span>
               </li>
               <li className={listStyle}>
-                <span>Påbegynte ml:</span>
+                <span>Påbegynte ml</span>
                 <span>1400 kr</span>
               </li>
             </ul>
@@ -25,11 +25,11 @@ export const PricesPage = () => {
             <h3 className="text-xl">Lepper</h3>
             <ul className="flex flex-col gap-2 items-start">
               <li className={listStyle}>
-                <span>0.5 ml:</span>
+                <span>0.5 ml</span>
                 <span>2000 kr</span>
               </li>
               <li className={listStyle}>
-                <span>1 ml:</span>
+                <span>1 ml</span>
                 <span>2500 kr</span>
               </li>
             </ul>
@@ -39,27 +39,27 @@ export const PricesPage = () => {
           <h2 className="text-2xl">Rynkebehandling</h2>
           <ul className="flex flex-col gap-2 items-start">
             <li className={listStyle}>
-              <span>1 område:</span>
+              <span>1 område</span>
               <span>1300 kr</span>
             </li>
             <li className={listStyle}>
-              <span>2 områder:</span>
+              <span>2 områder</span>
               <span>1800 kr</span>
             </li>
             <li className={listStyle}>
-              <span>3 områder:</span>
+              <span>3 områder</span>
               <span>2600 kr</span>
             </li>
             <li className={listStyle}>
-              <span>4 områder:</span>
+              <span>4 områder</span>
               <span>3200 kr</span>
             </li>
             <li className={listStyle}>
-              <span>5 områder:</span>
+              <span>5 områder</span>
               <span>3800 kr</span>
             </li>
             <li className={listStyle}>
-              <span>Lip flip:</span>
+              <span>Lip flip</span>
               <span>1000 kr</span>
             </li>
           </ul>

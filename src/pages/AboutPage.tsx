@@ -8,7 +8,7 @@ export const AboutPage = () => {
   return (
     <>
       <h1 className="text-3xl w-screen bg-(--bg-primary-color) p-4 lg:text-4xl">Vårt team</h1>
-      <Section className="md:flex-row md:justify-center">
+      <Section className="md:flex-row md:justify-center flex-wrap">
         <About
           imageUrl={employeeAnna}
           name="Anna"

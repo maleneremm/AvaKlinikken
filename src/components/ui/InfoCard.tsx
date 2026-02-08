@@ -26,9 +26,9 @@ export const InfoCard = ({
       <div
         className={`flex flex-col justify-between items-center w-full md:items-start gap-4 md:gap-8 md:w-1/3`}
       >
-        <h3 className="text-xl md:text-3xl">{title}</h3>
+        <h3 className={`text-xl md:text-2xl lg:text-3xl ${imageUrl ? "" : "border-b border-stone-200 p-2"}`}>{title}</h3>
         <ul
-          className={`w-full items-start mt-2 flex flex-col gap-2 ${imageUrl ? "" : "items-start px-8"}`}
+          className={`w-full items-start mt-2 flex flex-col gap-2 ${imageUrl ? "" : "items-start px-8 lg:px-0"}`}
         >
           {description?.map((item, index) => (
             <li className="text-start md:text-md lg:text-xl" key={index}>
