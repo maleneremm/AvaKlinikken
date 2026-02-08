@@ -12,7 +12,7 @@ export const HomePage = () => {
       <Section className="flex items-center">
         <Hero />
       </Section>
-      <Section>
+      <Section className="p-4">
         <InfoCard
           title="Konsultasjon"
           description={[
@@ -20,10 +20,10 @@ export const HomePage = () => {
           ]}
           imageUrl={consult}
         />
-        <h1 className="text-3xl w-screen bg-[#cfbfaf] p-4 lg:text-4xl">
-          Behandlinger
-        </h1>
       </Section>
+      <h1 className="text-3xl w-screen bg-[#cfbfaf] p-4 lg:text-4xl">
+        Behandlinger
+      </h1>
       <Section className="p-4">
         <InfoCard
           title="Rynkebehandling"
