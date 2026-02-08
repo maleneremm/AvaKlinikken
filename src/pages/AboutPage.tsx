@@ -24,7 +24,7 @@ export const AboutPage = () => {
         <About
           imageUrl={employeeMomena}
           name="Dr. Momena Sahar"
-          title="Lege"
+          title="LEGE"
           description="Dr. Momena Sahar er ansvarlig lege ved klinikken. Hun har videre utdannet seg i estetisk medisin og jobber som lege i spesialisering innen nevrologi. Hun arbeider til daglig med komplekse medisinske problemstillinger der presisjon, trygghet og helhetlig vurdering står sentralt. Som medisinsk ansvarlig lege har Momena ansvar for at klinikkens estetiske behandlinger utføres i tråd med faglige restningslinjer. Rollen innebærer medisinsk rådgivning, vurdering av pasientsikkerhet og faglig oppfølging av behandlere, med kvalitet og forsvarlighet som grunnleggende prinsipper. "
         />
       </Section>

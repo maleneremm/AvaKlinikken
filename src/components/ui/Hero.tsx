@@ -20,6 +20,7 @@ export const Hero = () => {
           </a>{" "}
           hvis du ikke finner ledig time på ønsket tidspunkt.
         </p>
+        <p>Aldersgrense for behandlinger er 18 år.</p>
       </div>
     </div>
   );
