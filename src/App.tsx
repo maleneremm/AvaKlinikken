@@ -7,8 +7,8 @@ import wrinkleTreatment from "../src/assets/wrinkle-treatment.png";
 import fillers from "../src/assets/fillers.png";
 import { About } from "./components/ui/About";
 import { ContactUs } from "./components/ui/ContactUs";
-import employeeAnna from "../src/assets/employee-Anna.png";
-import employeeHannan from "../src/assets/employee-Hannan.png";
+import employeeAnna from "../src/assets/anna.jpeg";
+import employeeHannan from "../src/assets/hannan.jpeg";
 
 function App() {
   return (
