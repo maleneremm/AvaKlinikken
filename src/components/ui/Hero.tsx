@@ -1,25 +1,24 @@
-import heroBanner from "../../assets/hero-banner.png";
-import { Button } from "../common/Button";
+import heroBanner from "../../assets/hero-banner.jpg";
 
 export const Hero = () => {
   return (
     <div>
-      <img src={heroBanner} alt="Hero Banner" />
+      <img src={heroBanner} alt="Hero Banner" className="w-screen" />
       <div className="flex flex-col gap-4 items-center p-4 lg:p-22 lg:gap-8">
         <header>
-          <h2 className="text-2xl lg:text-4xl">Naturlig skjønnhet,</h2>
-          <h2 className="text-2xl font-bold lg:text-4xl">profesjonell behandling</h2>
+          <h2 className="text-2xl lg:text-4xl">Velkommen til</h2>
+          <h2 className="text-2xl font-bold lg:text-4xl">
+            AvaKlinikken
+          </h2>
         </header>
         <p className="text-center md:text-2xl lg:max-w-xl">
-          Avaklinikken tilbyr trygge og effektive behandlinger for å fremheve
-          din naturlige skjønnhet
+          Våre åpningstider er fleksible. Se Ledige timer i Timma/ under «Book
+          time». <a
+            href="mailto:post@avaklinikken.no"
+            className="font-medium underline underline-offset-2 decoration-[0.5px] decoration-stone-600 md:decoration-transparent md:hover:decoration-current transition"
+          >Send oss gjerne en mail 
+          </a> hvis du ikke finner ledig time på ønsket tidspunkt.
         </p>
-        <Button
-          className="border border-(--primary-border-color) bg-(--primary-button-color) text-white p-2 rounded-md w-40 lg:text-xl lg:w-60"
-          onClick={() => {}}
-        >
-          Bestill konsultasjon
-        </Button>
       </div>
     </div>
   );

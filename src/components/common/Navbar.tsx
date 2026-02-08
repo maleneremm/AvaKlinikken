@@ -3,22 +3,52 @@ import { Menu } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
 import { useState } from "react";
 import { bookAppointment } from "../../utils/utils";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const buttonStyle =
-    "border border-(--primary-border-color) text-(--primary-font-color) px-3 py-1 rounded-md lg:w-32";
+    "border border-(--primary-border-color) text-(--primary-font-color) bg-[#e8dfd0] px-2 py-1 lg:w-32 rounded-md transition-all duration-150 ease-out hover:bg-[#e3d9c8] active:bg-[#dfd3bb] active:scale-[0.97] focus:outline-none focus:ring-1 focus:ring-(--primary-border-color)/30";
 
   return (
     <>
-      <nav className="relative flex flex-row items-center p-4 bg-white justify-between">
-        <h1 className="text-2xl basis-1/3 lg:text-4xl">AVAKLINIKKEN</h1>
+      <nav className="relative flex flex-row items-center p-4 bg-[#cfbfaf] justify-between">
+        <h1 className="text-2xl basis-1/3 lg:text-4xl">
+          <NavLink to="/">AvaKlinikken</NavLink>
+        </h1>
         <div className="flex items-center gap-4 lg:gap-8">
           <ul className="flex-row gap-8 items-center justify-center hidden lg:flex lg:text-xl">
-            <li>OM OSS</li>
-            <li>PRISER</li>
-            <li>BEHANDLINGER</li>
+            <li
+              className="underline
+         decoration-[0.5px]
+         underline-offset-2
+         decoration-transparent
+         hover:decoration-current
+         transition"
+            >
+              <NavLink to="/about">Om oss</NavLink>
+            </li>
+            <li
+              className="underline
+         decoration-[0.5px]
+         underline-offset-2
+         decoration-transparent
+         hover:decoration-current
+         transition"
+            >
+              <NavLink to="/prices">Priser</NavLink>
+            </li>
+            <li
+              className="underline
+         decoration-[0.5px]
+         underline-offset-2
+         decoration-transparent
+         hover:decoration-current
+         transition"
+            >
+              <NavLink to="/treatments">Behandlinger</NavLink>
+            </li>
           </ul>
           <div className="flex gap-4 justify-center items-center lg:text-xl lg:gap-8">
             <Button className={buttonStyle} onClick={bookAppointment}>
