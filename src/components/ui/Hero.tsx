@@ -6,7 +6,7 @@ export const Hero = () => {
       <img
         src={heroBanner}
         alt="Hero Banner"
-        className="w-full md:w-3/4 place-self-center"
+        className="w-full md:w-3/4 place-self-center rounded-b-md"
       />
       <div className="flex flex-col gap-4 items-center p-4 lg:p-8 lg:gap-2">
         <header>
