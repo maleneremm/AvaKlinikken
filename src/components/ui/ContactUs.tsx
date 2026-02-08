@@ -24,7 +24,7 @@ export const ContactUs = () => {
         </li>
       </ul>
       <hr className="my-4 text-stone-200" />
-      <p className="text-xs">
+      <p className="text-xs py-4">
         Nettside utviklet av{" "}
         <a
           href="https://www.linkedin.com/in/malene-remm"
