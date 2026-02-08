@@ -17,15 +17,15 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
         }`}
       >
         <ul className="flex flex-col bg-white p-4 gap-4">
-          <li className={listItemStyle}>
-            <NavLink to="/about">Om oss</NavLink>
-          </li>
-          <li className={listItemStyle}>
-            <NavLink to="/prices">Priser</NavLink>
-          </li>
-          <li className={listItemStyle}>
-            <NavLink to="/treatments">Behandlinger</NavLink>
-          </li>
+          <NavLink to="/about">
+            <li className={listItemStyle}>Om oss</li>
+          </NavLink>
+          <NavLink to="/prices">
+            <li className={listItemStyle}>Priser</li>
+          </NavLink>
+          <NavLink to="/treatments">
+            <li className={listItemStyle}>Behandlinger</li>
+          </NavLink>
         </ul>
       </div>
     </>
