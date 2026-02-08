@@ -24,7 +24,9 @@
 
 * {
   box-sizing: border-box;
-  font-family: var(--primary-font-family);
+  /*font-family: var(--primary-font-family);*/
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
 p,h1,h2,h3,h4,h5,h6,li {

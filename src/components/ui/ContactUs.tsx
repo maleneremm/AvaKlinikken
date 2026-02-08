@@ -1,6 +1,5 @@
 import { Instagram } from "lucide-react";
 import { visitInstagram } from "../../utils/utils";
-import { Link } from "react-router-dom";
 
 export const ContactUs = () => {
   return (

@@ -14,7 +14,7 @@ export const Navbar = () => {
   }, [location.pathname]);
 
   const buttonStyle =
-    "border border-(--primary-border-color) text-(--primary-font-color) bg-[#e8dfd0] px-2 py-1 lg:w-32 rounded-md transition-all duration-150 ease-out hover:bg-[#e3d9c8] active:bg-[#dfd3bb] active:scale-[0.97] focus:outline-none focus:ring-1 focus:ring-(--primary-border-color)/30";
+    "border border-(--primary-border-color) text-(--primary-font-color) bg-[#e8dfd0] px-2 py-1 lg:w-32 rounded-md transition-all duration-150 ease-out hover:bg-[#e3d9c8] active:scale-[0.97] focus:outline-none focus:ring-0.5 focus:ring-(--primary-border-color)/30";
 
   return (
     <>

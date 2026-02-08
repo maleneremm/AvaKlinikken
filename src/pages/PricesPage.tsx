@@ -2,7 +2,7 @@ import Section from "../components/layout/Section";
 
 export const PricesPage = () => {
   const listStyle =
-    "flex gap-2 justify-between w-full border-b border-stone-200";
+    "flex gap-2 justify-between w-full border-b border-stone-200 lg:text-lg";
   return (
     <>
       <h1 className="text-3xl p-4 lg:text-4xl">Priser</h1>

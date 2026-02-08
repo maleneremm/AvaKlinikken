@@ -31,7 +31,7 @@ export const InfoCard = ({
           className={`w-full items-start mt-2 flex flex-col gap-2 ${imageUrl ? "" : "items-start px-8"}`}
         >
           {description?.map((item, index) => (
-            <li className="text-start md:text-md" key={index}>
+            <li className="text-start md:text-md lg:text-xl" key={index}>
               {item}
             </li>
           ))}

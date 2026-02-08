@@ -10,8 +10,8 @@ export const Hero = () => {
           <h2 className="text-2xl font-bold lg:text-4xl">AvaKlinikken</h2>
         </header>
         <p className="text-center md:text-2xl lg:max-w-xl">
-          Våre åpningstider er fleksible. Se Ledige timer i Timma/ under «Book
-          time».{" "}
+         Vi er en medisinsk estetisk klinikk. Se ledige timer i Timma/ under «Book
+          time». Våre åpningstider er fleksible.{" "}
           <a
             href="mailto:post@avaklinikken.no"
             className="font-medium underline underline-offset-2 decoration-[0.5px] decoration-stone-600 md:decoration-transparent md:hover:decoration-current transition"
