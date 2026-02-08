@@ -5,7 +5,7 @@ interface MobileMenuProps {
 }
 
 export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
-  const listItemStyle = "p-2 border-b border-stone-900 w-full";
+  const listItemStyle = "p-2 border-b border-stone-900 w-full text-2xl";
 
   return (
     <>
