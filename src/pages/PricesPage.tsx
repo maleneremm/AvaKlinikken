@@ -62,7 +62,13 @@ export const PricesPage = () => {
               <span>Lip flip</span>
               <span>1000 kr</span>
             </li>
+            <li className={`${listStyle} pt-8`}>
+                <span>Avbestillingsgebyr</span>
+                <span>500 kr</span>
+            </li>
+            <p className="text-sm">* Avbestilling må skje minimum 24 timer før avtalt behandling. Ved senere avbestilling påløper gebyr.</p>
           </ul>
+    
         </div>
       </Section>
     </>
