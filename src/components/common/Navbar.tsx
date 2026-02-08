@@ -1,12 +1,17 @@
 import { Button } from "./Button";
 import { Menu } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { bookAppointment } from "../../utils/utils";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
 
   const buttonStyle =
     "border border-(--primary-border-color) text-(--primary-font-color) bg-[#e8dfd0] px-2 py-1 lg:w-32 rounded-md transition-all duration-150 ease-out hover:bg-[#e3d9c8] active:bg-[#dfd3bb] active:scale-[0.97] focus:outline-none focus:ring-1 focus:ring-(--primary-border-color)/30";
@@ -56,10 +61,10 @@ export const Navbar = () => {
             </Button>
             <div className="relative lg:hidden">
               <Menu onClick={() => setIsOpen(!isOpen)} />
-              <MobileMenu isOpen={isOpen} />
             </div>
           </div>
         </div>
+        <MobileMenu isOpen={isOpen} />
       </nav>
     </>
   );

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 interface MobileMenuProps {
   isOpen: boolean;
 }
@@ -8,12 +10,22 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
   return (
     <>
       <div
-        className={`absolute -right-4 w-screen h-screen bg-white ${isOpen ? "top-10" : "-top-200"}  ${isOpen ? "z-10" : "-z-10"} transition-all duration-300 ease-in-out`}
+        className={`absolute left-0 right-0 top-full h-screen overflow-y-auto bg-white shadow-md transition-[transform,opacity] duration-300 ease-out will-change-transform ${
+          isOpen
+            ? "opacity-100  pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
       >
         <ul className="flex flex-col bg-white p-4 gap-4">
-          <li className={listItemStyle}>Om oss</li>
-          <li className={listItemStyle}>Priser</li>
-          <li className={listItemStyle}>Behandlinger</li>
+          <li className={listItemStyle}>
+            <NavLink to="/about">Om oss</NavLink>
+          </li>
+          <li className={listItemStyle}>
+            <NavLink to="/prices">Priser</NavLink>
+          </li>
+          <li className={listItemStyle}>
+            <NavLink to="/treatments">Behandlinger</NavLink>
+          </li>
         </ul>
       </div>
     </>
