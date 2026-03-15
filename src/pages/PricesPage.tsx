@@ -40,11 +40,11 @@ export const PricesPage = () => {
           <ul className="flex flex-col gap-2 items-start">
             <li className={listStyle}>
               <span>1 område</span>
-              <span>1300 kr</span>
+              <span>1400 kr</span>
             </li>
             <li className={listStyle}>
               <span>2 områder</span>
-              <span>1800 kr</span>
+              <span>2000 kr</span>
             </li>
             <li className={listStyle}>
               <span>3 områder</span>
@@ -58,17 +58,23 @@ export const PricesPage = () => {
               <span>5 områder</span>
               <span>3800 kr</span>
             </li>
-            <li className={listStyle}>
+            <li className={`${listStyle} pt-8`}>
               <span>Lip flip</span>
               <span>1000 kr</span>
             </li>
-            <li className={`${listStyle} pt-8`}>
-                <span>Avbestillingsgebyr</span>
-                <span>500 kr</span>
+            <li className={listStyle}>
+              <span>Masseter</span>
+              <span>2400 kr</span>
             </li>
-            <p className="text-sm">* Avbestilling må skje minimum 24 timer før avtalt behandling. Ved senere avbestilling påløper gebyr.</p>
+            <li className={`${listStyle} pt-8`}>
+              <span>Avbestillingsgebyr</span>
+              <span>500 kr</span>
+            </li>
+            <p className="text-sm">
+              * Avbestilling må skje minimum 24 timer før avtalt behandling. Ved
+              senere avbestilling påløper gebyr.
+            </p>
           </ul>
-    
         </div>
       </Section>
     </>
